@@ -1,0 +1,125 @@
+.header {
+  height: 445px;
+  background-image: linear-gradient(30deg,rgb(254, 107, 131), rgb(147, 38, 240) 90%);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 22px;
+  color: rgb(88, 39, 130);
+  text-decoration: none;
+  margin: 25px 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.nav-item a:hover {
+    color: rgb(200, 200, 250);
+}
+
+.motto {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.motto h2 {
+  font-size: 116px;
+  margin: 0 auto;
+}
+.motto h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+.waves {
+  position: absolute;
+  width: 50%;
+  bottom: -15%;
+  right: -15%;
+}
+.wave-top {
+  display: block;
+  margin-right: 0;
+}
+.wave-top2 {
+  display: block;
+  width: 50%;
+
+}
+
+.section {
+  width: 1000px;
+  height: 260px;
+  margin: 50px auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.section-text {
+  float: left;
+  width: 50%;
+  color: rgb(88, 39, 130);
+  position: relative;
+}
+.number {
+  position: absolute;
+  z-index: -1;
+  color: rgb(229, 121, 215);
+  font-size: 247px;
+  left: 0;
+  top: -50px;
+}
+.section-text h1 {
+  margin: 0;
+  font-size: 27px;
+  letter-spacing: 3px;
+  margin-left: 100px;
+
+}
+.section-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-left: 100px;
+}
+.section-image {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+.section-image2 {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.image {
+  width: 409px;
+  height: 255px;
+}
+
+
+.more-button {
+  background-color: white;
+  color: rgb(88, 39, 130);
+  border: 2px solid rgb(194, 68, 193);
+  padding: 10px;
+  margin-left: 100px;
+}
